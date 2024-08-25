@@ -1,0 +1,46 @@
+/* General container styling */
+form {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Input fields styling */
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #2C2C2C;
+    color: #FFF;
+    font-size: 16px;
+}
+
+/* Button styling */
+button[type="submit"] {
+    background-color: #28A745;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Button hover effect */
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Placeholder text color */
+::placeholder {
+    color: #AAAAAA;
+}
+
+/* Add a little shadow to form elements */
+input[type="text"], input[type="email"], textarea, button[type="submit"] {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
